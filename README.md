@@ -6,7 +6,7 @@ Use object oriented programming to make an entirely new book library
 
 ### Estimated Time to Complete
 
-50 minutes
+80 minutes
 
 ---
 
