@@ -33,7 +33,7 @@ NOTE: ALL methods for the Library class go in the library.py script
 
 
 # 3.2 TODO: In this file:
-#   Once you have finished writing the `add()` method above, add the following books to your library:
+#   Once you have finished writing the `add_title()` method above, add the following books to your library:
 #
 #       The Body Keeps the Score - Bessel van der Kolk
 #       Sapiens - Yuval Noah Harari
@@ -41,7 +41,7 @@ NOTE: ALL methods for the Library class go in the library.py script
 #       The Warmth of Other Suns - Isabel Wilkerson
 
 
-# 3.3 TODO: Print the `books`` attribute of my_library again to make sure your books have been added.
+# 3.3 TODO: Print the `books` attribute of my_library again to make sure your books have been added.
 
 
 # 3.4 TODO: Huh. That looks a little weird... Loop through the `books` attribute and print each
@@ -61,7 +61,8 @@ NOTE: ALL methods for the Library class go in the library.py script
 # 5.1 TODO: In `library.py`:
 #   Fill out the `remove_title` method to remove a book (by title) from an instance of the Library class.
 #   - The method should take an additional parameter `title`, the title of the book to be removed
-#   - The method should remove any books matching the input title from the `Library` instance.
+#   - The method should remove all books matching the input title from the `Library` instance.
+#       NOTE: We know a `list` method that does something like this, but will it remove ALL matching books?
 #   - The method does not need to return anything
 
 
@@ -78,7 +79,7 @@ NOTE: ALL methods for the Library class go in the library.py script
 #   candidate to turn into a method of the `Library` class. So let's do it!
 
 # 6.1 TODO: In `library.py`:
-#   Create a new method called `print_titles`.
+#   Create a new method called `display_books`.
 #   - This method should not take in any additional parameters (beyond `self`).
 #   - Move your loop into this method, and edit the variable names so that it refers directly 
 #       to the `books` attribute
@@ -86,7 +87,7 @@ NOTE: ALL methods for the Library class go in the library.py script
 
 
 # 6.2 TODO: In this file:
-#   This time, call your library's `print_titles` method to see if it works.
+#   This time, call your library's `display_books` method to see if it works.
 
 
 # 7.1 TODO: In this script:
@@ -94,18 +95,15 @@ NOTE: ALL methods for the Library class go in the library.py script
 
 
 # 7.2 TODO: In this script:
-#   Add two books of your choosing from the New York Times best sellers lists to nyt_bestsellers using the .add() method
+#   Add two books of your choosing from the New York Times best sellers lists to nyt_bestsellers using the .add_title() method
 #   You can find NYT books here: https://www.nytimes.com/books/best-sellers/
 
 
 # 7.3 TODO: In this script:
-#   Call the `print_titles` method on the `nyt_bestsellers` Library object.
+#   Call the `display_books` method on the `nyt_bestsellers` Library object.
 
 
 # BONUS .1 TODO: In `library.py`
-#   Update the `print_titles` method to sort the books in alphabetical order firs
+#   Update the `display_books` method to sort the books in alphabetical order firs
 #   NOTE: There is a quick way to sort a list in Python, google it!
-
-
-# BONUS .2 TODO: In this script:
-#   Call the method on both `my_library` and `nyt_bestsellers` to see if the sorting worked!
+#   Run this file again to see if it changed the output!
