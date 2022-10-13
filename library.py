@@ -4,9 +4,8 @@ from book import Book
 class Library():
 	def __init__(self):
 		"""Initialize the empty book list"""
-		pass
 
-	def add(self, title, author):
+	def add(self):
 		"""Add a Book object with the given title and author to the book list"""
 		pass
 
@@ -14,7 +13,7 @@ class Library():
 		"""Return the number of books currently in the booklist"""
 		pass
 
-	def remove_title(self, title):
+	def remove_title(self):
 		"""Remove a book from the book list"""
 		pass
 
