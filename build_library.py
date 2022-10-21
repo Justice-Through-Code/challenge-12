@@ -5,7 +5,7 @@ then test each method in this file.
 NOTE: ALL methods for the Library class go in the library.py script
 '''
 
-# 1.0 TODO: Import the Library class
+# 1.0 TODO: Import the `Library` class from `library.py`
 
 
 # 2.1 TODO: In `library.py`:
@@ -26,9 +26,10 @@ NOTE: ALL methods for the Library class go in the library.py script
 
 
 # 3.1 TODO: In `library.py`:
-#   Fill out the `add()` method to add a book to an instance of the Library class.
+#   Fill out the `add_title()` method to add a book to an instance of the Library class.
 #   - The method should take two parameters (other than self): `title` and `author`, both strings
 #   - The method should create a `Book` object (it's already imported into the file) with those two attributes
+#     how to make a `Book` object: new_book = Book('Book Title', 'Book Author')
 #   - Then, the method should append this book to the `books` attribute of the `Library` object
 
 
@@ -104,6 +105,6 @@ NOTE: ALL methods for the Library class go in the library.py script
 
 
 # BONUS .1 TODO: In `library.py`
-#   Update the `display_books` method to sort the books in alphabetical order firs
+#   Update the `display_books` method to sort the books in alphabetical order
 #   NOTE: There is a quick way to sort a list in Python, google it!
 #   Run this file again to see if it changed the output!
